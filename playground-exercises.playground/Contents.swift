@@ -83,7 +83,7 @@ func returnIfPositiveInteger(number: String) -> String{
     guard let value = Int(number), value > 0 else {
         return "Not a positive integer"
     }
-    return (number)
+    return number
 }
 
 // Unit Test Exercise 2
